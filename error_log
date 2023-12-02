@@ -1,0 +1,2 @@
+[14-Aug-2023 15:04:46 Asia/Kolkata] PHP Fatal error:  Attribute "AllowDynamicProperties" cannot target method (allowed targets: class) in /home4/techc2lb/public_html/kashi/system/libraries/Session/Session_driver.php on line 125
+[14-Aug-2023 15:05:02 Asia/Kolkata] PHP Fatal error:  Attribute "AllowDynamicProperties" cannot target method (allowed targets: class) in /home4/techc2lb/public_html/kashi/system/libraries/Session/Session_driver.php on line 125

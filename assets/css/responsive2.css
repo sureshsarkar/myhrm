@@ -1,0 +1,137 @@
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+      background-color: #63c971;
+      color: #fff;
+    }
+    .tm-banner-title{
+        color: white;
+    margin-top: 155px;
+    line-height: 55px;
+    }
+    .tm-banner-text-container{
+      height: 575px;
+    }
+  }
+   
+  /* For Tablet View */
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: orange;
+      color: black;
+
+    }
+    .tm-banner-title{
+        color: white;
+    
+    }
+  }
+   
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .gfg-div {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      color: #fff;
+    }
+    .tm-banner-title{
+        color: white;
+    
+    }
+  }
+   
+  /* For Mobile Landscape View */
+  @media screen and (max-device-width: 640px)
+  and (orientation: landscape) {
+    .gfg-div {
+      width: 400px;
+      height: 200px;
+      background-color: cyan;
+      color: black;
+    }
+    .tm-banner-title{
+        color: white;
+    
+    }
+  }
+   
+  /* For Mobile Phones Portrait or Landscape View */
+  @media screen and (max-device-width: 640px) {
+    .gfg-div {
+      width: 400px;
+      height: 200px;
+      background-color: chartreuse;
+      color: black;
+    }
+    .tm-banner-title{
+        color: white;
+    
+    }
+  }
+   
+  /* For iPhone 4 Portrait or Landscape View */
+  @media screen and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: brown;
+      color: black;
+    }
+    .tm-banner-title{
+        color: white;
+        margin-top: 214px;
+    
+    }
+  }
+   
+  /* For iPhone 5 Portrait or Landscape View */
+  @media (device-height: 568px) and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: cornflowerblue;
+      color: black;
+    }
+    .tm-banner-title{
+        color: white;
+    
+    }
+    .her{
+        font-size: 14px;
+    }
+  }
+   
+  /* For iPhone 6 and 6 plus Portrait or Landscape View */
+  @media (min-device-height: 667px) and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    .gfg-div {
+      width: 400px;
+      height: 400px;
+      background-color: darkgoldenrod;
+      color: black;
+    }
+    .tm-banner-title{
+        color: white;
+    
+    }
+    .tm-banner-text-container{
+      height: 751px;
+    }
+  }
+
+  @media screen and (max-width: 900px){
+    .tm-banner-text-container {
+      height: 620px;
+  }
+  .tm-banner-title{
+    margin-top: 165px;
+    font-size: 26px;
+  }
+  }

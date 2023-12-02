@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600;800&family=Open+Sans:wght@300&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*only menu css here*/
+.shadoCls {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 0px 3px, rgba(0, 0, 0, 0.23) 0px 1px 8px;
+    background: #f6e6ff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000000;
+}
+
+.____frame li a {
+    text-transform: capitalize !important;
+    color: #5f2a5d !important;
+    padding: 0rem 1rem !important;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+
+.__hvCroll {
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+
+}
+
+
+.__hvCroll:hover {
+    text-transform: capitalize !important;
+    color: #f43397 !important;
+    border-bottom: 2px solid #f4339a;
+}
+
+.button11 {
+    padding: 10px 18px;
+    margin: 4px;
+    background: #fb4daa;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.button11:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #e33e96;
+}
+
+.displayFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second ul {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.second ul li {
+    padding: 0px 10px;
+}
+
+.borderTop {
+    border-top: 1px solid #e3e2e2;
+    padding: 5px;
+}
+
+.bi-house-add {
+    font-size: 25px;
+}
+
+.logoCls {
+    font-size: 30px;
+    padding-left: 12px;
+    color: #fb4daa;
+    font-family: cursive;
+}
+
+.second ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fb4daa;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.second ul li a:hover {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fb4daa;
+    letter-spacing: 1px;
+    border-bottom: 2px solid;
+}
+
+
+.bi-house-add::before {
+    color: #fb4daa;
+}
+
+.bi-search::before {
+    color: #fb4daa;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.searchCls {
+    border: 2px solid #fb4daa;
+    border-radius: 5px;
+}
+
+/*end*/
+
+
+
+
+/* footer css start */
+
+.imageowner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    width: 50px;
+    object-fit: cover;
+}
+
+.footLearn {
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    padding: 11px 19px 11px 8px;
+    border-right: 2px solid #d3cfcf;
+}
+
+.socilSize {
+    font-size: 19px;
+    color: #878080;
+}
+
+.copyText {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer_menu {
+    background: #f7f8fa;
+
+}
+
+/* footer css end */

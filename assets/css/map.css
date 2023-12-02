@@ -1,0 +1,210 @@
+.design-section {
+    position: relative;
+    z-index: 0;
+}
+
+.heading-default .badge {
+    padding: 0 1.2rem;
+    border-radius: 6.25rem;
+    line-height: 1.9375rem;
+    margin-bottom: 0.5rem;
+    animation-name: bounce_two;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.badge {
+    position: relative;
+    display: none;
+}
+.heading-default h2 {
+    color: var(--bs-secondary);
+}
+
+.heading-default p {
+    margin-bottom: 0;
+    font-weight: 300 !important;
+}
+.ind-services-group {
+    background-image: url(https://www.cvinfotech.com/wp-content/uploads/2022/07/industry-bg-1.jpg);
+    background-position: center;
+    position: relative;
+    height: 777px;
+}
+.ind-single.item1 {
+    left: 14%;
+    top: 16%;
+}
+.ind-single {
+    position: absolute;
+}
+span.inds-sprit-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+span.inds-sprit-icon.inds-sprit1:before {
+    background-position: 12% -8px;
+}
+.inds-sprit-icon:before {
+    content: "";
+    background-image: url(https://www.cvinfotech.com/wp-content/uploads/2022/07/Group-116.svg);
+    width: 65px;
+    height: 65px;
+}
+.ind-single.item2 {
+    left: 14%;
+    top: 26%;
+}
+span.inds-sprit-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+span.inds-sprit-icon.inds-sprit2:before {
+    background-position: 13% -3px;
+}
+span.inds-sprit-icon.inds-sprit2:before {
+    background-position: 55.9% -9px;
+}
+.inds-sprit-icon:before {
+    content: "";
+    background-image: url(https://www.cvinfotech.com/wp-content/uploads/2022/07/Group-116.svg);
+    width: 65px;
+    height: 65px;
+}
+.ind-single.item3 {
+    left: 40%;
+    top: 42%;
+}
+.ind-single.item4 {
+    left: 26%;
+    top: 60%;
+}
+.ind-single.item5 {
+    left: 45%;
+    top: 22%;
+}
+span.inds-sprit-icon.inds-sprit5:before {
+    background-position: 38.5% -3px;
+}
+span.inds-sprit-icon.inds-sprit3:before {
+    background-position: 51% -3px;
+}
+.inds-sprit-icon:before {
+    content: "";
+    background-image: url(../img/Group1.svg);
+    width: 65px;
+    height: 65px;
+}
+span.inds-sprit-icon.inds-sprit4:before {
+    background-position: -33.3% -3px;
+}
+span.inds-sprit-icon.inds-sprit5:before {
+    background-position: 22% -10px;
+}
+.ind-single.item6 {
+    left: 47%;
+    top: 55%;
+}
+span.inds-sprit-icon.inds-sprit6:before {
+    background-position: -66.5% -9px;
+}
+.ind-single.item7 {
+    left: 25%;
+    top: 72%;
+}
+.ind-single.item12 {
+    left: 25%;
+    top: 72%;
+}
+.ind-single.item13 {
+    left: 23%;
+    top: 50%;
+}
+.ind-single.item14 {
+    left: 33%;
+    top: 5%;
+}
+.ind-single.item15 {
+    left: 33%;
+    top: 22%;
+}
+.ind-single.item16 {
+    left: 64%;
+    top: 50%;
+}
+.ind-single.item17 {
+    left: 35%;
+    top: 35%;
+}
+span.inds-sprit-icon.inds-sprit7:before {
+    background-position: -27% -3px;
+}
+span.inds-sprit-icon.inds-sprit7:before {
+    background-position: -27% -3px;
+}
+.ind-single.item8 {
+    left: 64%;
+    top: 10%;
+}
+span.inds-sprit-icon.inds-sprit8:before {
+    background-position: 27.4% -9px;
+}
+.ind-single.item9 {
+    left: 69%;
+    top: 23%;
+}
+span.inds-sprit-icon.inds-sprit9:before {
+    background-position: 36.5% -3px;
+}
+.ind-single.item10 {
+    left: 54%;
+    top: 32%;
+}
+span.inds-sprit-icon.inds-sprit10:before {
+    background-position: 40.4% -10px;
+}
+.ind-single.item12 {
+    left: 75%;
+    top: 40%;
+}
+span.inds-sprit-icon.inds-sprit12:before {
+    background-position: -46% -3px;
+}
+.ind-single.item11 {
+    left: 79%;
+    top: 68%;
+}
+span.inds-sprit-icon.inds-sprit11:before {
+    background-position: -58% -8px;
+}
+span.inds-sprit-icon.inds-sprit15:before {
+    background-position: -26% -8px;
+}
+span.inds-sprit-icon.inds-sprit16:before {
+    background-position: -16% -13px;
+}
+span.inds-sprit-icon.inds-sprit17:before {
+    background-position: -16% -13px;
+}
+
+span.inds-sprit-icon.inds-sprit12:before {
+    background-position: -3% -8px;
+}
+
+span.inds-sprit-icon.inds-sprit13:before {
+    background-position: -11.5% -8px;
+}    
+
+span.inds-sprit-icon.inds-sprit7:before {
+    background-position: -36% -11px;
+} 
+span.inds-sprit-icon.inds-sprit14:before {
+    background-position: -21% -11px;
+} 
+
+span.inds-sprit-icon.inds-sprit16:before {
+    background-position: -8% -14px;
+} 
